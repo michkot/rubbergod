@@ -103,7 +103,6 @@ class Config:
     )
 
     # Roles
-    role_string: str = get_attr("role", "string")
     role_channels: List[int] = get_attr("role", "channels")
 
     # Subjects shortcuts
